@@ -1,14 +1,12 @@
-## Проект Project2 (Village Library)
+## Проект Project2Boot (Village Library)
 
-- Дальнейшее развитие проекта Project1 - переписан с использованием Hibernate и Spring Data JPA
+- Миграция проекта Project2 на Spring Boot
 - Цифровой учет книг в небольшой библиотеке.
 
 ***Используемые технологии:***
-- JDK 11, Spring MVC, Spring Data JPA, Hibernate, Maven, Thymeleaf, HTML, Postgres
+- JDK 11, Spring Boot, Spring MVC, Spring Data JPA, Hibernate, Maven, Thymeleaf, HTML, Postgres
 
 ***API***
-
-###### Ранее присутствующий функционал
 
 - /people - Страница со списком всех людей, можно добавить нового человека
 - /people/{id} - Информация о человеке. Можно отредактировать ее, либо удалить человека. Отображаются взятые книги, либо что он ничего не брал
@@ -19,7 +17,6 @@
 - /books/new - Добавить новую книгу
 - /books/{id}/edit - Изменить данные о книге
 
-###### Новый функционал
 
 - при отображении /people/{id} выводится информация о просрочке книги более 10 дней (книга выделяется красным шрифтом)
 - /books?page=1&books_per_page=3 - Пагинация книг
