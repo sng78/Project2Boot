@@ -1,4 +1,4 @@
-## Проект Project2Boot (Village Library)
+## Проект Project2Boot (Книжная библиотека)
 
 - Миграция проекта Project2 на Spring Boot
 - Цифровой учет книг в небольшой библиотеке.
