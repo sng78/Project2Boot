@@ -4,7 +4,7 @@
 - Цифровой учет книг в небольшой библиотеке.
 
 ***Используемые технологии:***
-- Java, Postgres, Hibernate, Hibernate Validator, Spring Boot, Spring MVC, Spring Data JPA, Maven, Thymeleaf, HTML
+- Java, Postgres, Hibernate, Hibernate Validator, Spring Boot, Spring MVC, Spring Data JPA, Maven, Thymeleaf, HTML, IntelliJ IDEA, Git
 
 ***API***
 
